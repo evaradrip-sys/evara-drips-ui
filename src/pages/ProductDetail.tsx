@@ -332,7 +332,7 @@ const ProductDetail = () => {
             <div className="border-t border-border pt-6 space-y-4">
               <div className="flex items-center gap-3">
                 <Truck className="h-5 w-5 text-accent" />
-                <span className="text-sm text-muted-foreground">Free shipping on orders over $50</span>
+                <span className="text-sm text-muted-foreground">Free shipping on orders over 1299rs</span>
               </div>
               <div className="flex items-center gap-3">
                 <RotateCcw className="h-5 w-5 text-accent" />
