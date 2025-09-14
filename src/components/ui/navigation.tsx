@@ -23,7 +23,8 @@ export function Navigation() {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <h1 className="text-2xl font-bold text-primary font-heading mr-12">
-              Evara Drip
+              
+             <i>Evara Drip</i> 
             </h1>
           </Link>
 
