@@ -3,6 +3,8 @@ import { Search, Heart, ShoppingBag, Menu, X, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from './button';
 import { Input } from './input';
+import logo from '@/assets/logo.png';
+
 
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,9 +24,7 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <h1 className="text-2xl font-bold text-primary font-heading mr-12">
-              Evara Drip
-            </h1>
+            <img src={logo} alt="Logo" className="w-48 mt-2" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -47,7 +47,7 @@ export function Navigation() {
                 <Search className="h-4 w-4 text-muted-foreground mr-3" />
                 <Input
                   type="text"
-                  placeholder="Search for T-shirts, pants, styles..."
+                  placeholder="Search for T-shirts, Hoodies, styles..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="border-none focus:ring-0 bg-transparent placeholder:text-muted-foreground"

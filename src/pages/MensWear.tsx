@@ -23,21 +23,21 @@ const MensWear = () => {
             </div>
           </div>
         </section>
-        <CategoryGrid />
-        <ProductGrid 
+        {/* <CategoryGrid /> */}
+        {/* <ProductGrid 
           title="Men's Featured Products"
           subtitle="Premium quality clothing designed for the modern man"
           maxProducts={8}
           showViewAll={true}
-        />
-        <div className="bg-luxury py-16">
+        /> */}
+        {/* <div className="bg-luxury py-16">
           <ProductGrid 
             title="Best Sellers"
             subtitle="Most popular men's items this season"
             maxProducts={4}
             showViewAll={true}
           />
-        </div>
+        </div> */}
       </main>
       <Footer />
     </div>

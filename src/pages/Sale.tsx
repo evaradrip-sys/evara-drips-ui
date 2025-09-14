@@ -23,7 +23,7 @@ const Sale = () => {
             </div>
           </div>
         </section>
-        <CategoryGrid />
+        {/* <CategoryGrid />
         <ProductGrid 
           title="Sale Items"
           subtitle="Amazing discounts on premium fashion"
@@ -37,7 +37,7 @@ const Sale = () => {
             maxProducts={4}
             showViewAll={true}
           />
-        </div>
+        </div> */}
       </main>
       <Footer />
     </div>

@@ -23,7 +23,7 @@ const NewArrivals = () => {
             </div>
           </div>
         </section>
-        <CategoryGrid />
+        {/* <CategoryGrid />
         <ProductGrid 
           title="Latest Arrivals"
           subtitle="Fresh styles just added to our collection"
@@ -37,7 +37,7 @@ const NewArrivals = () => {
             maxProducts={4}
             showViewAll={true}
           />
-        </div>
+        </div> */}
       </main>
       <Footer />
     </div>

@@ -23,7 +23,7 @@ const Accessories = () => {
             </div>
           </div>
         </section>
-        <CategoryGrid />
+        {/* <CategoryGrid />
         <ProductGrid 
           title="Featured Accessories"
           subtitle="Premium accessories to complement your style"
@@ -37,7 +37,7 @@ const Accessories = () => {
             maxProducts={4}
             showViewAll={true}
           />
-        </div>
+        </div> */}
       </main>
       <Footer />
     </div>

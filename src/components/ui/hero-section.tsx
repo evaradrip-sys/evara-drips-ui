@@ -1,30 +1,33 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from './button';
-import heroImage from '@/assets/hero-fashion.jpg';
+import heroImage from '@/assets/Upscaled2.jpeg';
+import heroImage3 from '@/assets/Upscaled.jpeg';
+import heroImage2 from '@/assets/Carousel.jpg';
+
 
 const heroSlides = [
   {
     id: 1,
-    image: heroImage,
+    image: heroImage3,
     title: "New Collection",
     subtitle: "Discover Premium Fashion",
-    description: "Explore our latest collection of trendy T-shirts, pants, and lifestyle essentials",
+    description: "Explore our latest collection of trendy T-shirts, hoodies, and lifestyle essentials",
     primaryCTA: "Shop Collection",
     secondaryCTA: "View Lookbook",
   },
   {
     id: 2,
     image: heroImage,
-    title: "Summer Essentials",
-    subtitle: "Stay Cool & Stylish",
-    description: "Lightweight fabrics and contemporary designs for the modern wardrobe",
-    primaryCTA: "Explore Summer",
+    title: "Winter Essentials",
+    subtitle: "Stay Warm & Stylish",
+    description: "Stylish fabrics and trendy designs for the modern wardrobe",
+    primaryCTA: "Explore Winter",
     secondaryCTA: "See Trends",
   },
   {
     id: 3,
-    image: heroImage,
+    image: heroImage2,
     title: "Sale Season",
     subtitle: "Up to 50% Off",
     description: "Limited time offers on selected premium fashion items",
@@ -80,7 +83,7 @@ export function HeroSection() {
       <div className="relative z-10 h-full flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="max-w-2xl animate-fade-in">
-            <h2 className="text-sm font-medium text-accent uppercase tracking-wider mb-4">
+            <h2 className="text-sm font-bold text-accent uppercase tracking-wider mb-4">
               {currentSlideData.subtitle}
             </h2>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
@@ -93,7 +96,7 @@ export function HeroSection() {
               <Button className="btn-hero text-lg px-8 py-4">
                 {currentSlideData.primaryCTA}
               </Button>
-              <Button variant="outline" className="btn-outline-hero text-lg px-8 py-4 text-white border-white hover:bg-white hover:text-primary">
+              <Button variant="outline" className="btn-outline-hero text-lg px-8 py-4 text-primary border-white hover:bg-white hover:text-black">
                 {currentSlideData.secondaryCTA}
               </Button>
             </div>

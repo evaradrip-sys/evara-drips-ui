@@ -29,13 +29,13 @@ export function Footer() {
       { name: "FAQ", href: "/faq" },
       { name: "Contact Us", href: "/contact" },
     ],
-    company: [
-      { name: "About Us", href: "/about" },
-      { name: "Careers", href: "/careers" },
-      { name: "Sustainability", href: "/sustainability" },
-      { name: "Press", href: "/press" },
-      { name: "Blog", href: "/blog" },
-    ],
+    // company: [
+    //   { name: "About Us", href: "/about" },
+    //   { name: "Careers", href: "/careers" },
+    //   { name: "Sustainability", href: "/sustainability" },
+    //   { name: "Press", href: "/press" },
+    //   { name: "Blog", href: "/blog" },
+    // ],
     legal: [
       { name: "Privacy Policy", href: "/privacy" },
       { name: "Terms of Service", href: "/terms" },
@@ -54,7 +54,7 @@ export function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground">
       {/* Newsletter Section */}
-      <div className="bg-gradient-luxury border-b border-primary-foreground/10">
+      {/* <div className="bg-gradient-luxury border-b border-primary-foreground/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
             <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4">
@@ -81,7 +81,7 @@ export function Footer() {
             </form>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -90,7 +90,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center mb-6">
               <h1 className="text-2xl font-bold font-heading">
-                Sneak Store
+                Evara Drip
               </h1>
             </Link>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
@@ -102,15 +102,15 @@ export function Footer() {
             <div className="space-y-3 mb-6">
               <div className="flex items-center text-sm text-primary-foreground/80">
                 <Phone className="h-4 w-4 mr-3" />
-                +1 (555) 123-4567
+                +91  9082043578
               </div>
               <div className="flex items-center text-sm text-primary-foreground/80">
                 <Mail className="h-4 w-4 mr-3" />
-                hello@sneakstore.com
+                evaradrip@gmail.com
               </div>
               <div className="flex items-center text-sm text-primary-foreground/80">
                 <MapPin className="h-4 w-4 mr-3" />
-                123 Fashion Street, NY 10001
+                Sahyedri Firms, Baner, Pune, Maharashtra 411045
               </div>
             </div>
 
@@ -164,7 +164,7 @@ export function Footer() {
           </div>
 
           {/* Company Links */}
-          <div>
+          {/* <div>
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
@@ -178,7 +178,7 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -187,7 +187,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-sm text-primary-foreground/80 mb-4 md:mb-0">
-              © 2024 Sneak Store. All rights reserved.
+              © 2025 Evara Drip. All rights reserved.
             </div>
             <div className="flex flex-wrap gap-4">
               {footerLinks.legal.map((link) => (

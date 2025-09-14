@@ -23,7 +23,7 @@ const WomensWear = () => {
             </div>
           </div>
         </section>
-        <CategoryGrid />
+        {/* <CategoryGrid />
         <ProductGrid 
           title="Women's Featured Products"
           subtitle="Curated collection of premium women's fashion"
@@ -37,7 +37,7 @@ const WomensWear = () => {
             maxProducts={4}
             showViewAll={true}
           />
-        </div>
+        </div> */}
       </main>
       <Footer />
     </div>
