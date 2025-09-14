@@ -46,7 +46,7 @@ export function Footer() {
 
   const socialLinks = [
     { name: 'Facebook', icon: Facebook, href: '#' },
-    { name: 'Instagram', icon: Instagram, href: '#' },
+    { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/evaradrip?igsh=d2xteGhqdzNkcGZk' },
     { name: 'Twitter', icon: Twitter, href: '#' },
     { name: 'YouTube', icon: Youtube, href: '#' },
   ];
@@ -102,7 +102,7 @@ export function Footer() {
             <div className="space-y-3 mb-6">
               <div className="flex items-center text-sm text-primary-foreground/80">
                 <Phone className="h-4 w-4 mr-3" />
-                +91  9082043578
+                +91-9082043578
               </div>
               <div className="flex items-center text-sm text-primary-foreground/80">
                 <Mail className="h-4 w-4 mr-3" />
@@ -187,6 +187,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-sm text-primary-foreground/80 mb-4 md:mb-0">
+              © 2025 Evara Drip. All rights reserved.
               © 2025 Evara Drip. All rights reserved.
             </div>
             <div className="flex flex-wrap gap-4">
