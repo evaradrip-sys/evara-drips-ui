@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from './button';
-import heroImage from '@/assets/hero-fashion.jpg';
+import heroImage from '@/assets/WhatsApp image 2025-09-14 at 13.06.07 copy.jpeg';
 
 const heroSlides = [
   {
