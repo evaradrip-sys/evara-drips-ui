@@ -46,7 +46,7 @@ export function Footer() {
 
   const socialLinks = [
     { name: 'Facebook', icon: Facebook, href: '#' },
-    { name: 'Instagram', icon: Instagram, href: '#' },
+    { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/evaradrip?igsh=d2xteGhqdzNkcGZk' },
     { name: 'Twitter', icon: Twitter, href: '#' },
     { name: 'YouTube', icon: Youtube, href: '#' },
   ];
