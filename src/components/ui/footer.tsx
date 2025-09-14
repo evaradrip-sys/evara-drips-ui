@@ -102,7 +102,7 @@ export function Footer() {
             <div className="space-y-3 mb-6">
               <div className="flex items-center text-sm text-primary-foreground/80">
                 <Phone className="h-4 w-4 mr-3" />
-                +1 (555) 123-4567
+                +91-9082043578
               </div>
               <div className="flex items-center text-sm text-primary-foreground/80">
                 <Mail className="h-4 w-4 mr-3" />
@@ -110,7 +110,7 @@ export function Footer() {
               </div>
               <div className="flex items-center text-sm text-primary-foreground/80">
                 <MapPin className="h-4 w-4 mr-3" />
-                123 Fashion Street, NY 10001
+                Baner,Pune ,near Balewadi High Street
               </div>
             </div>
 
