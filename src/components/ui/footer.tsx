@@ -110,7 +110,7 @@ export function Footer() {
               </div>
               <div className="flex items-center text-sm text-primary-foreground/80">
                 <MapPin className="h-4 w-4 mr-3" />
-                Baner,Pune ,near Balewadi High Street
+               Baner, Pune, near Balewadi High Street, PIN 411045.
               </div>
             </div>
 
