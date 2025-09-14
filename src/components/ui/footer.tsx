@@ -90,7 +90,7 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center mb-6">
               <h1 className="text-2xl font-bold font-heading">
-                Sneak Store
+                Evara Drip
               </h1>
             </Link>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
@@ -106,7 +106,7 @@ export function Footer() {
               </div>
               <div className="flex items-center text-sm text-primary-foreground/80">
                 <Mail className="h-4 w-4 mr-3" />
-                hello@sneakstore.com
+                evaradrip@gmail.com
               </div>
               <div className="flex items-center text-sm text-primary-foreground/80">
                 <MapPin className="h-4 w-4 mr-3" />
@@ -187,7 +187,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-sm text-primary-foreground/80 mb-4 md:mb-0">
-              © 2024 Sneak Store. All rights reserved.
+              © 2025 Evara Drip. All rights reserved.
             </div>
             <div className="flex flex-wrap gap-4">
               {footerLinks.legal.map((link) => (
